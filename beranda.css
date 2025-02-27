@@ -1,0 +1,96 @@
+#header{
+    width: 100%;
+    height: 150px;
+    background-color: darkblue;
+}
+#content{
+    width: 100%;
+    height: 500px;
+    background-color: green;
+    display: flex;
+}
+#nama{
+    color: white;
+    padding: 20px;
+}
+#menu-bar{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    position: fixed;
+}
+.menu{
+    color: white;
+    width: 130px;
+    list-style: none;
+    text-align: center;
+}
+#daftar-menu{
+    display: inline-flex;
+}
+.menu:hover{
+    background-color: yellow;
+    color: black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    cursor: pointer;
+}
+#menu-artikel{
+    display: none;
+}
+#open-artikel:hover #menu-artikel{
+    display: block;
+    height: 70px;
+    padding-right: 20px;
+    list-style: none;
+    width: 100%;
+    margin-left: -40px;
+}
+.artikel:hover{
+    list-style: none;
+    padding-top: 10px;
+    font-style: italic;
+    background-color: black;
+    color: white;
+}
+#nama{
+  font-family: "Playwrite IN", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+#menu-sosmed{
+    display: none;
+}
+#open-sosmed:hover #menu-sosmed{
+    display: block;
+    height: 120px;
+    padding-right: 20px;
+    list-style: none;
+    width: 100%;
+    margin-left: -40px;
+}
+.sosmed:hover{
+    list-style: none;
+    padding-top: 10px;
+    font-style: italic;
+    background-color: black;
+    color: white;
+}
+#side-menu{
+    width: 30%;
+    height: 500px;
+    background-color: red;
+}
+#isi{
+    width: 70%;
+    height: 500px;
+    background-color: aqua;
+    display: flex;
+}
+#set-video{
+    width: 100%;
+    height: 400px;
+}

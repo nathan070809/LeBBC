@@ -1,0 +1,70 @@
+.head{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+.content{
+    width: 100%;
+    height: 1000px;
+    background-color: blue;
+    display: flex;
+}
+.aerox{
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+}
+.vario{
+    width: 20%;
+    height: 1000px;
+    background-color: gray;
+    display: block;
+}
+.nmax{
+    width: 60%;
+    height: 1000px;
+    background-color: green;
+}
+#pcx{
+    width: 80%;
+    height: 400px;
+    background-color: orange;
+    margin: auto;
+}
+#xmax{
+    width: 80%;
+    height: 500px;
+    background-color: red;
+    margin: auto;
+}
+#Tmax{
+    width: 80%;
+    height: 400px;
+    background-image: radial-gradient(white,black,red);
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+    margin: auto;
+}
+@media only screen and (max-width: 600px){
+    .content{
+        display: block;
+    }
+    .vario{
+        display: block;
+        width: 100%;
+    }
+    #pcx{
+        width: 100%;
+    }
+    #xmax{
+        width: 100%;
+    }
+    .nmax{
+        width: 100%;
+    }
+    #Tmax{
+        width: 100%;
+    }
+}
